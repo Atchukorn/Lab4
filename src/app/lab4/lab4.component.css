@@ -1,0 +1,36 @@
+.Count {
+  background-color: #edf3ef;
+  border: 5px outset red;
+       text-align: center;
+  color: rgb(196, 91, 190);
+  font-weight: 600;
+  border: none;
+  width: auto;
+  min-width: 30%;
+  position: relative;
+}
+.numberEven {
+  Color : green ;
+}
+.numberOdd {
+  Color :  red ;
+}
+
+
+   /* Responsive Styles  */
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
